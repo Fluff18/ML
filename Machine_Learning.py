@@ -261,7 +261,7 @@ def sigm(z):
 bestW1=[]
 bestW2=[]
 min=10000
-for i in range(1,10):
+for i in range(1,100):
     NN=Neural_Network()
     if min>sse(y,NN.forward(X)):
         min=sse(y,NN.forward(X))
